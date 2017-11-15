@@ -10,11 +10,11 @@
 <hr class="my-4">
 
   <ul>
-    @if (count($getMejores) > 0)
-      @foreach ($getMejores as $actor)
+    @if (count($getActors) > 0)
+      @foreach ($getActors as $actor)
         <li>
-          <a href="/actores/{{ $actor->first_name }}">
-            {{ $actor->first_name }}
+          <a href="/actores/{{ $actor->id }}">
+            {{ $actor->first_name }} {{ $actor->last_name }}
           </a>
         </li>
       @endforeach

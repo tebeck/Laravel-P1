@@ -8,4 +8,9 @@ class Genre extends Model
 {
     protected $guarded = [];
 
+    public function peliculas() {
+      return $this->hasMany("App\Movie", "genre_id");
+    }
+
+
 }

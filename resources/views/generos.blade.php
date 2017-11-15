@@ -6,7 +6,7 @@
 
 @section("principal")
 <div class="jumbotron">
-<h1 class="display-3">Mis Peliculas</h1>
+<h1 class="display-3">Mis Generos</h1>
 <hr class="my-4">
 
   <ul>
